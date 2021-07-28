@@ -1,0 +1,40 @@
+{
+    "guilds": {
+        "premium": [
+            {
+                "trades": "TRADING CHANNEL",
+                "drops": "DROP CHANNEL",
+                "spam": "SPAM CHANNEL",
+                "users": [                    
+                    {
+                        "name": "master_name",
+                        "token": "token"
+                    },
+                    {
+                        "name": "slave1_name",
+                        "token": "token"
+                    },                
+                    {
+                        "name": "slave2_name",
+                        "token": "token"
+                    }
+                ]
+            },
+            {
+                "trades": "TRADING CHANNEL",
+                "drops": "DROP CHANNEL",
+                "spam": "SPAM CHANNEL",
+                "users": [                    
+                    {
+                        "name": "main_account_2_name",
+                        "token": "token"
+                    },
+                    {
+                        "name": "slave1_name",
+                        "token": "token"
+                    }
+                ]
+            }
+        ]
+    }
+}
