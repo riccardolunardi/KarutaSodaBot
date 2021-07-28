@@ -1,4 +1,4 @@
-﻿# Karuta Soda
+# Karuta Soda
 ## DISCLAIMER
 This bot doesn't work anymore. If you try to use it, you'll either get banned from Discord, because self-bots are against the TOS, or you'll be banned from the Karuta bot.
 I had never gain profit from the selling of this software and I'm posting it just to display something on my GitHub.
@@ -18,4 +18,4 @@ You'll have to dig the code if you really want to use it. It doesn't work anymor
 ## What commands can I use?
 Again, you'll have to dig the code a bit.
 
-If you have questions, text me on Discord: Innul#6334. I check the dm only once in a while. *I won't explain how it works or how to use it**.
+If you have questions, text me on Discord: Innul#6334. I check the dm only once in a while. **I won't explain how it works or how to use it**.
