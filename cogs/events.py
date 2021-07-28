@@ -7,7 +7,7 @@ class EventsCog(commands.Cog, name="Events"):
         self.bot = bot
 
     async def add_reaction_event(self, drop):
-        if self.bot.user.id != 797569879561338912:
+        if self.bot.user.id != int(INSERT_MASTER_OF_MASTERS_ID):
             self.bot.logger.debug("Non grabbing the egg because I'm not the master")
             return None
         for reaction in drop.reactions:
