@@ -10,8 +10,8 @@ class MainCog(commands.Cog, name = "Main"):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print('KarutaSoda avviato per {}'.format(self.bot.user))
-        self.bot.logger.debug('KarutaSoda avviato per {}'.format(self.bot.user))
+        print('KarutaSoda started for {}'.format(self.bot.user))
+        self.bot.logger.debug('KarutaSoda started for {}'.format(self.bot.user))
         
 
     @commands.Cog.listener()
@@ -46,7 +46,7 @@ class MainCog(commands.Cog, name = "Main"):
     async def before_daily(self):
         await self.bot.wait_until_ready()
         if self.bot.first_cycle:
-            print(f'Sono {self.bot.user} e attendo {self.bot.turn} per il daily')
+            print(f'I\'m {self.bot.user}, waiting for {self.bot.turn} k!daily')
             await asyncio.sleep(self.bot.turn)
             self.bot.first_cycle = False
 
@@ -67,7 +67,7 @@ class MainCog(commands.Cog, name = "Main"):
     async def inve(self, ctx):
         await asyncio.sleep(random.randint(1,40)) # Randomizing
         await ctx.channel.send(random.choice(["k!i","ki"]))
-        self.bot.logger.debug('k!inventario')
+        self.bot.logger.debug('k!invent')
 
     # If triggered it shows the user's inventory
     @commands.command()
