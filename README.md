@@ -1,4 +1,4 @@
-# Karuta Soda
+# KarutaSoda (Karuta Bot Cheats)
 ## DISCLAIMER
 This bot doesn't work anymore. If you try to use it, you'll either get banned from Discord, because self-bots are against the TOS, or you'll be banned from the Karuta bot.
 I had never gain profit from the selling of this software and I'm posting it just to display something on my GitHub.
