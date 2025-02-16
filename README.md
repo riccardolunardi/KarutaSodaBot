@@ -18,4 +18,4 @@ You'll have to dig the code if you really want to use it. It doesn't work anymor
 ## What commands can I use?
 Again, you'll have to dig the code a bit.
 
-If you have questions, text me on Discord: Innul#6334. I check the dm only once in a while. **I won't explain how it works or how to use it**.
+**I won't explain how it works or how to use it**.
